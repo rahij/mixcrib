@@ -50,11 +50,10 @@
 					$content = getStuff($pl_url);
 					$DOM = new DOMDocument;
 					$DOM->loadHTML($content);
-					$vidTitle = $DOM->getElementById('eow-title');
-					//echo $vidTitle->nodeValue;
+					$vidTitle = $DOM->getElementById('eow-title')->nodeValue;
 
 					$result[0]['tracks'] = $vid_id;
-					$result[0]['title'] = 'Shit';
+					$result[0]['title'] = $vidTitle;
 					$result[0]['type'] = "youtube";
 					print_r(json_encode($result));
 				}	
