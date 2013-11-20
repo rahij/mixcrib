@@ -16,7 +16,7 @@ Currently Supported:
 As you can see, this is a very bare bones app, limited in functionality. Here is the intial roadmap of the things I want to do in the short term:
 
  - Persisting of playlists created in a database (probably without user accounts and just a unique URL for a start)
- - Restructure the webapp in Backbone, it is currently a less horrible sphagetti JS mess
+ - Restructure the webapp in Backbone, it is currently a less horrible spaghetti JS mess
  - Support for Soundcloud tracks too and Spotify, iTunes
  - Search for media directly from the app
  - Support for local MP3s (not sure if people still do this, but I sometimes do)
